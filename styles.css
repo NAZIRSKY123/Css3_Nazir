@@ -4,7 +4,7 @@ body {
     padding: 0; 
     }
     #header {
-     background-color: #333;
+     background-color: #87dbf5;
     color: white; 
     padding: 10px; 
     }
@@ -47,3 +47,18 @@ body {
      position: relative;
      }
     }
+    #nav li {
+        display: inline-block; 
+        margin-right: 15px; 
+        }
+        #nav a { 
+        color: white; 
+        text-decoration: none; 
+        padding: 5px 10px;
+        transition: background-color 0.3s ease, color 0.3s
+        ease; 
+        }
+        #nav a:hover {
+        background-color: white; 
+        color: #333;
+        }
