@@ -1,14 +1,37 @@
-<div class="footer-section">
-    <h3>Address</h3>
-    <P>Jl.Garis 1 Desa Semangat Bakti,Kabupaten Barito Kuala</P>
-    <P>Kode Pos:70582</P>
-</div>
-<div class="footer-section">
-    <h3>Social</h3>
-    <P><b>Email     :</b>Alyatakin29@gmail.com</P>
-    <P><b>Instagram :</b>@cyberxskyy__</P>
-</div>
-</div>
-</div>
-<bentuk>
-<input type="button" value="Kembali!" onclick="history.back()">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="n.css">
+</head>
+<body>
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>I'm always open to discuss new projects, creative ideas, or opportunities to be part of your vision.</p>
+
+            <div class="contact-form">
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
